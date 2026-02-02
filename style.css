@@ -23,14 +23,17 @@ body{
 }
 
 header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px; 
+    background-color: var(--cor-de-fundo); 
+    z-index: 1000; 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    padding: 1rem;
+    border-bottom: 2px solid var(--cor-de-destaque);
 }
 
 .logo-header{
@@ -46,9 +49,11 @@ nav a:hover{
 }
 
 main{
+    padding-top: 100px; 
     display: flex;
     flex-direction: column;
-    padding-top: 8rem;
+    align-items: center;
+    padding-top: 5rem;
 }
 
 .apresentacao{
@@ -68,10 +73,22 @@ main{
     font-style: italic;
 }
 
+.sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 8rem;
+}
+
+.sobre p{
+    line-height: 1.4rem;
+}
+
 .projetos-container{
     display: flex;
     flex-direction: column;
     padding-top: 5rem;
+    gap: 2rem;
 }
 
 .projeto-cards{
@@ -112,3 +129,4 @@ main{
     font-size: 0.9rem;
     color: var(--texto-principal);
 }
+
