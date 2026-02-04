@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Syne:wght@400..800&display=swap');
 
 :root {
-    --cor-de-fundo: #0f172a;       
-    --fundo-do-card: #1e293b;       
-    --cor-de-destaque: #aa00c4;   
+    --cor-de-fundo: #0f172a;
+    --fundo-do-card: #1e293b;
+    --cor-de-destaque: #aa00c4;
     --texto-principal: #f8fafc;
     --texto-suave: #94a3b8;
 }
@@ -15,7 +15,7 @@
     font-family: "Sora", sans-serif;
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
     height: 100vh;
     color: var(--texto-principal);
@@ -24,42 +24,42 @@ body{
     background-attachment: fixed;
 }
 
-header{
+header {
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    height: 60px; 
-    background-color: var(--cor-de-fundo); 
-    z-index: 1000; 
+    height: 60px;
+    background-color: var(--cor-de-fundo);
+    z-index: 1000;
     display: flex;
     align-items: center;
     padding: 1rem;
     border-bottom: 3.5px solid var(--cor-de-destaque);
-    
+
 }
 
-.logo-header{
+.logo-header {
     color: var(--texto-principal);
 }
 
-nav{
+nav {
     display: none;
 }
 
-nav a:hover{
+nav a:hover {
     color: var(--cor-de-destaque);
 }
 
-main{
-    padding-top: 100px; 
+main {
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 5rem;
 }
 
-.apresentacao{
+.apresentacao {
     text-align: center;
     color: var(--texto-principal);
     display: flex;
@@ -67,34 +67,40 @@ main{
     gap: 1rem;
 }
 
-.apresentacao h1{
+.apresentacao h1 {
     font-size: 3.5rem;
 }
 
-.apresentacao h2{
+.apresentacao h2 {
     font-size: 1rem;
     font-style: italic;
 }
 
-.sobre{
+.sobre {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-top: 8rem;
 }
 
-.sobre p{
+.sobre p {
     line-height: 1.4rem;
 }
 
-.projetos-container{
+.projetos-container {
     display: flex;
     flex-direction: column;
     padding-top: 5rem;
     gap: 2rem;
 }
 
-.projeto-cards{
+.projetos-header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.projeto-cards {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -102,49 +108,55 @@ main{
     margin: 0 auto;
 }
 
-.projetos-header h3{
+.projetos-header h3 {
     padding-left: 0.3rem;
 }
 
-.projeto{
-    margin-top: 1.5rem;
+.projeto {
+    margin-top: 2rem;
     border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: var(--cor-de-destaque) 3px 3px 3px;
     transition: all 0.5s ease;
 }
 
-.projeto:hover{
+.projeto:hover {
     transform: scale(101%);
 }
 
-.projeto img{
+.projeto img {
     border-radius: 12px 12px 0 0;
 }
 
-.projeto-descricao{
+.projeto-descricao {
     display: flex;
     flex-direction: column;
     padding: 1rem 0.5rem;
     gap: 0.8rem;
 }
 
-.projeto-link{
+.projeto-link {
     font-size: 0.9rem;
     color: var(--texto-principal);
 }
 
-.hard-skills{
+.hard-skills {
     margin-top: 5rem;
 }
 
-.hard-skills-cards{
+.hard-skills-header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hard-skills-cards {
     display: flex;
     gap: 2rem;
     padding-top: 2rem;
     flex-wrap: wrap;
 }
 
-.hard-skills-card{
+.hard-skills-card {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -157,30 +169,103 @@ main{
     font-size: 1rem;
     border-left: 4px solid var(--cor-de-destaque);
     transition: all 0.5s ease;
+    margin-top: 2rem;
 }
 
-.hard-skills-card:hover{
+.hard-skills-card:hover {
     border-left-width: 10px;
 }
 
-.hard-skills-card i{
+.hard-skills-card i {
     padding-top: 15px;
     font-size: 2.5rem;
 }
 
-.soft-skills{
+.soft-skills {
     margin-top: 5rem;
 }
 
-.soft-skills-lista{
+.soft-skills-header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.soft-skills-lista {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
-.soft-skills-item{
+.soft-skills-item {
     display: flex;
     align-items: center;
     gap: 0.6rem;
+}
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.formacao-header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.formacao-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.formacao-card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-left: 5px solid var(--cor-de-destaque);
+    transition: all 0.5s ease;
+}
+
+.formacao-card h3 {
+    font-size: 1.2rem;
+}
+
+.formacao-card h4 {
+    color: var(--cor-de-destaque);
+}
+
+.formacao-card p {
+    color: var(--texto-suave);
+}
+
+.formacao-card:hover {
+    border-left-width: 15px;
+}
+
+.cursos {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cursos-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cursos-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
