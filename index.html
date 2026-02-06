@@ -13,14 +13,26 @@
 
 
     <header>
-        <div class="logo-header">
-            <h4>Portifólio</h4>
+        <div class="header-btn"> 
+            <button id="tema-toggle" class="tema-btn">
+                <i class="fa-solid fa-sun"></i>
+            </button>
         </div>
 
-        <nav>
-            <a href="#sobre">Sobre</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
+        <div class="logo-header">
+            <h3>Portifólio</h3>
+        </div>
+
+        <button class="menu-btn" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="lado-menu" id="lado-menu">
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#skills">Skills</a>
+            <a href="#formacao">Formação e Cursos</a>
+            <a href="#projetos-container">Projetos</a>
+            <a href="#contato">Contatos</a>
         </nav>
     </header>
 
@@ -35,7 +47,7 @@
         </div>
     </main>
 
-    <section class="sobre">
+    <section id="sobre" class="sobre">
         <h2>Sobre mim</h2>
         <p>Sou estudante de Ciências da Computação na UNIFACS e possuo formação técnica como Programador Front-End pelo
             SENAI (Ford-Enter).
@@ -48,7 +60,7 @@
             código.</p>
     </section>
 
-    <section class="hard-skills">
+    <section id="skills" class="hard-skills">
         <div class="hard-skills-header">
             <h2><i class="fa-solid fa-brain"></i></h2>
             <h2>Hard Skills</h2>
@@ -60,7 +72,7 @@
             </div>
             <div class="hard-skills-card">
                 <i class="fa-brands fa-css3-alt fa-2xl"></i>
-                <h3>CCS3</h3>
+                <h3>CSS3</h3>
             </div>
             <div class="hard-skills-card">
                 <i class="fa-brands fa-git-alt fa-2xl"></i>
@@ -107,7 +119,7 @@
         </div>
     </section>
 
-    <section class="formacao">
+    <section id="formacao" class="formacao">
         <div class="formacao-header">
             <h2><i class="fa-solid fa-graduation-cap"></i></h2>
             <h2>Formação</h2>
@@ -162,7 +174,7 @@
         </div>
     </section>
 
-    <section class="projetos-container">
+    <section id="projetos-container" class="projetos-container">
         <div class="projetos-header">
             <h2><i class="fa-solid fa-briefcase"></i></h2>
             <h2>Projetos</h2>
@@ -227,12 +239,18 @@
                 <span>LinkedIn</span>
             </a>
 
-            <a href="mailto:rai100304@gmail.com" class="contato-card">
+            <a target="_blank" href="mailto:rai100304@gmail.com" class="contato-card">
                 <i class="fa-solid fa-envelope"></i>
                 <span>E-mail</span>
             </a>
+
+            <a target="_blank" href="https://github.com/railapa" class="contato-card">
+                <i class="fa-brands fa-github fa-2xl"></i>
+                <span>GitHub</span>
+            </a>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
