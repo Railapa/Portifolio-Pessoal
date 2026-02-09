@@ -456,3 +456,138 @@ main {
 section[id] {
     scroll-margin-top: 100px;
 }
+
+@media (min-width:1000px){
+    .logo-header h3{
+        font-size: 1.5rem;
+    }
+
+   main {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1100px;
+        margin: 10rem auto 0;
+        text-align: left;
+        padding: 0 2rem;
+    }
+
+    .foto-perfil {
+        padding-bottom: 0;
+        width: 280px;
+    }
+
+    .apresentacao {
+        text-align: left;
+        align-items: flex-start;
+        max-width: 600px;
+    }
+
+    .apresentacao h1 {
+        font-size: 4.8rem;
+    }
+
+    .sobre{
+        text-align: center;
+    }
+
+    .sobre h2{
+        font-size: 2.5rem;
+    }
+
+    .sobre p{
+        font-size: 1.2rem;
+        line-height: 28px;
+        padding: 0 5rem;
+    }
+
+    .hard-skills{
+        margin-top: 8rem;
+    }
+
+    .hard-skills-header{
+        gap: 1rem;
+        font-size: 1.3rem;
+        padding: 0 4rem;
+    }
+
+    .hard-skills-cards{
+        padding: 2rem 4rem;
+    }
+
+     .soft-skills{
+        margin-top: 8rem;
+    }
+
+     .soft-skills-header{
+        gap: 1rem;
+        font-size: 1.3rem;
+        padding: 0 4rem;
+    }
+
+    .soft-skills-lista{
+        padding: 2rem 4rem;
+        gap: 1.5rem;
+    }
+
+    .soft-skills-lista h3{
+        font-size: 1.3rem;
+    }
+
+    .formacao{
+        margin-top: 8rem;
+    }
+
+    .formacao-header{
+        font-size: 1.3rem;
+        gap: 1rem;
+        margin-bottom: 4rem;
+        padding: 0 4rem;
+    }
+
+     .cursos{
+        margin-top: 8rem;
+    }
+
+    .cursos-header{
+        font-size: 1.3rem;
+        gap: 1rem;
+        margin-bottom: 4rem;
+        padding: 0 4rem;
+    }
+
+    .projetos-header{
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+        gap: 1rem;
+        padding: 0 4rem;
+    }
+
+    .projeto-cards{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .contato-container{
+        margin-top: 5rem;
+    }
+
+    .contato-header h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .contato-links {
+        flex-direction: row;
+        max-width: 1000px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 2rem auto 0;
+        gap: 2rem;
+    }
+
+    .contato-card {
+        min-width: 220px;
+    }
+}
