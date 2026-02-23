@@ -567,6 +567,8 @@ section[id] {
     .projeto-cards{
         flex-direction: row;
         width: 100%;
+        flex-wrap: wrap;
+        padding: 1rem 3rem;
     }
 
     .contato-container{
