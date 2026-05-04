@@ -40,3 +40,17 @@ btnTema.addEventListener('click', () => {
 document.querySelectorAll('.lado-menu a').forEach(link => {
     link.addEventListener('click', () => ladoMenu.classList.remove('open'));
 });
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        }
+    });
+}, { threshold: 0.1 }); 
+
+
+document.querySelectorAll('.formacao-card, .hard-skills-card, .projeto').forEach((el) => {
+    el.classList.add('reveal'); 
+    observer.observe(el);      
+});

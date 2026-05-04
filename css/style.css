@@ -224,6 +224,11 @@ main {
     margin-top: 2rem;
 }
 
+.text-react{
+    position: relative;
+    bottom: 17px;
+}
+
 .hard-skills-card:hover {
     background-color: var(--cor-de-destaque);
     color: #fff;
@@ -451,6 +456,17 @@ main {
 
 .contato-card:hover i {
     color: #fff;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 section[id] {
