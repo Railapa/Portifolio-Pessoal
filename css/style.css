@@ -589,9 +589,10 @@ body.modal-aberto {
     margin-top: 1rem;
     display: flex;
     justify-content: flex-end;
+    gap: 15px;
 }
 
-.btn-modal-link {
+.btn-modal-link, .btn-modal-linkRepositorio {
     background-color: var(--cor-de-destaque);
     color: #ffffff;
     text-decoration: none;
