@@ -97,31 +97,13 @@ const detalhesProjetos = {
         linkRepositorio: "https://github.com/Railapa/React-Costs.git"
     },
 
-    "taskFlow": {
-        titulo: "TaskFlow (Projeto Pessoal)",
-        projetoDesc: "Gerenciador de tarefas (To-Do List) robusto projetado para otimizar a organização diária, contando com controle individual de acessos e persistência de dados em tempo real na nuvem.",
-        oQueFiz: "Desenvolvi toda a aplicação utilizando JavaScript puro para a lógica de programação e manipulação dinâmica do DOM. Integrei o Firebase Auth para criar um sistema seguro de login, cadastro e logout, garantindo que cada usuário visualize apenas as suas próprias tarefas. Utilizei o Firebase Firestore para armazenar, editar e excluir os dados em tempo real, além de implementar lógica de busca textual e filtros dinâmicos por categorias (Trabalho, Estudos, Pessoal), datas e níveis de prioridade.",
-        stacks: ["HTML5", "CSS3", "JavaScript (ES6+)", "Firebase Authentication", "Firebase Firestore", "Programação Assíncrona"],
-        link: "https://task-flow-phi-mauve.vercel.app/",
-        linkRepositorio: "https://github.com/Railapa/TaskFlow.git"
-    },
-
-    "starbucks": {
-        titulo: "Starbucks Landing Page (Projeto Conceitual)",
-        projetoDesc: "Releitura da página inicial da Starbucks, focando em fidelidade visual, transições suaves e interações dinâmicas ao selecionar diferentes produtos.",
-        oQueFiz: "Aproveitei este projeto para consolidar conceitos de posicionamento avançado com CSS (Flexbox) e manipulação dinâmica do DOM via JavaScript. Desenvolvi a lógica que altera a imagem do produto em destaque e o círculo de fundo correspondente de forma sutil quando o usuário clica nos diferentes sabores de bebidas, garantindo um feedback visual fluido. Também estruturei a interface para manter a harmonia do layout em diferentes tamanhos de tela.",
-        stacks: ["HTML5", "CSS3", "JavaScript (Vanilla)", "Manipulação do DOM", "Flexbox", "Responsividade"],
-        link: "https://landing-page-starbucks-vert.vercel.app/",
-        linkRepositorio: "https://github.com/Railapa/Landing-Page-Starbucks.git"
-    },
-
-    "rumo": {
-        titulo: "Agência Rumo (Projeto Pessoal)",
-        projetoDesc: "Landing page corporativa moderna desenvolvida para apresentar os serviços, portfólio e diferenciais de uma empresa de engenharia e projetos, focada em um design limpo e de alta legibilidade.",
-        oQueFiz: "Estruturei a aplicação utilizando boas práticas de HTML5 semântico e CSS3 para garantir consistência visual. Desenvolvi e configurei do zero o menu lateral responsivo (estilo hambúrguer), aplicando lógica de programação assíncrona ou manipulação de classes no JavaScript para criar efeitos de abertura e fechamento fluidos ao clicar no ícone de menu ou fora dele. Foquei em criar uma navegação otimizada para guiar o visitante em uma jornada lógica pelas seções de serviços e cases.",
-        stacks: ["HTML5", "CSS3", "JavaScript (ES6+)", "Flexbox", "Layout Responsivo", "Menu Interativo"],
-        link: "https://agencia-rumo.vercel.app/",
-        linkRepositorio: "https://github.com/Railapa/Agencia-Rumo.git"
+    "ChronosPomodoro": {
+        titulo: "Chronos Pomodoro (Projeto Pessoal)",
+        projetoDesc: "Aplicação web completa de produtividade baseada na técnica Pomodoro, desenvolvida para auxiliar na gestão de tempo e foco. O Chronos permite que o usuário gerencie ciclos de trabalho e descanso, personalize durações, alterne temas visuais e acompanhe o histórico detalhado de suas tarefas em uma interface moderna e intuitiva.",
+        oQueFiz: "Desenvolvi toda a aplicação do zero em React com TypeScript, garantindo tipagem estática e um código limpo e de fácil manutenção. Implementei a lógica do temporizador regressivo com suporte a ciclos de foco, descanso curto e descanso longo, além do controle de estados para início, interrupção e conclusão de tarefas. Criei um painel de ajustes onde o usuário pode customizar os minutos de cada etapa do ciclo conforme sua necessidade e uma página de histórico que exibe o status de cada tarefa (concluída, interrompida ou abandonada), tipo de ciclo, data e duração, incluindo funcionalidade para limpar registros e persistência de dados no LocalStorage. Além disso, implementei a alternância entre Tema Claro e Escuro (Light/Dark Mode), notificações estilo toast para feedback das ações do usuário e uma interface 100% responsiva.",
+        stacks: ["React", "TypeScript", "HTML5" ,"CSS modules", "LocalStorage", 'Responsividade'],
+        link: "https://chronos-plum-ten.vercel.app/",
+        linkRepositorio: "https://github.com/Railapa/Chronos.git"
     },
 };
 
