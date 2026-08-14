@@ -105,6 +105,15 @@ const detalhesProjetos = {
         link: "https://chronos-plum-ten.vercel.app/",
         linkRepositorio: "https://github.com/Railapa/Chronos.git"
     },
+    
+    "FutFeed": {
+        titulo: "Fut Feed (Projeto Pessoal)",
+        projetoDesc: "Dashboard moderno e interativo de notícias e estatísticas de futebol em tempo real. A aplicação centraliza feeds categorizados de notícias esportivas, tabelas de classificação completas das principais ligas do mundo (Brasileirão Série A, Premier League, La Liga e Champions League) e acompanhamento dedicado de clubes favoritos com exibição de próximas partidas e horários de jogos.",
+        oQueFiz: "Desenvolvi a aplicação SPA utilizando React e Tailwind CSS, focando em uma experiência fluida com temas dinâmicos e gradientes que se adaptam visualmente às cores oficiais de cada competição selecionada. Integrei e orquestrei o consumo de múltiplas APIs REST (Football-Data e GNews), implementando tratamento de erros, estados de carregamento (skeleton loading) e fallbacks resilientes. Construí a lógica de persistência de dados no LocalStorage para salvar o time favorito de cada torneio de forma independente e gerenciar notícias salvas. Além disso, configurei proxies nativos no Vite e Vercel Rewrites para eliminar problemas de CORS e garantir requisições seguras e de alta performance em produção.",
+        stacks: ['React', 'Tailwind CSS', 'JavaScript (JSX)', 'REST APIs', 'Vite', 'LocalStorage', 'Vercel Rewrites'],
+        link: "https://fut-feed.vercel.app/",
+        linkRepositorio: "https://github.com/Railapa/FutFeed"
+    },
 };
 
 cardsProjetos.forEach((card) => {
