@@ -114,6 +114,15 @@ const detalhesProjetos = {
         link: "https://fut-feed.vercel.app/",
         linkRepositorio: "https://github.com/Railapa/FutFeed"
     },
+    
+    "taskFlow": {
+        titulo: "TaskFlow (Projeto Pessoal)",
+        projetoDesc: "Gerenciador de tarefas (To-Do List) robusto projetado para otimizar a organização diária, contando com controle individual de acessos e persistência de dados em tempo real na nuvem.",
+        oQueFiz: "Desenvolvi toda a aplicação utilizando JavaScript puro para a lógica de programação e manipulação dinâmica do DOM. Integrei o Firebase Auth para criar um sistema seguro de login, cadastro e logout, garantindo que cada usuário visualize apenas as suas próprias tarefas. Utilizei o Firebase Firestore para armazenar, editar e excluir os dados em tempo real, além de implementar lógica de busca textual e filtros dinâmicos por categorias (Trabalho, Estudos, Pessoal), datas e níveis de prioridade.",
+        stacks: ["HTML5", "CSS3", "JavaScript (ES6+)", "Firebase Authentication", "Firebase Firestore", "Programação Assíncrona"],
+        link: "https://task-flow-phi-mauve.vercel.app/",
+        linkRepositorio: "https://github.com/Railapa/TaskFlow.git"
+    },
 };
 
 cardsProjetos.forEach((card) => {
