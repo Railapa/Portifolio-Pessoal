@@ -211,7 +211,7 @@ main {
 .hard-skills-card {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: var(--fundo-do-card);
     width: 135px;
@@ -225,9 +225,20 @@ main {
     margin-top: 2rem;
 }
 
-.text-react {
-    position: relative;
-    bottom: 17px;
+.hard-skills-card i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.hard-skills-card h3 {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    text-align: center;
 }
 
 .hard-skills-card:hover {
@@ -235,11 +246,6 @@ main {
     color: #fff;
     transform: scale(105%);
     box-shadow: 0 5px 15px rgba(170, 0, 196, 0.4);
-}
-
-.hard-skills-card i {
-    padding-top: 15px;
-    font-size: 2.5rem;
 }
 
 .soft-skills {
@@ -321,6 +327,24 @@ main {
     box-shadow: 0 5px 15px rgba(170, 0, 196, 0.4);
 }
 
+.formacao-card .experiencia-desc {
+    color: var(--texto-principal);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.experiencia-link {
+    align-self: flex-start;
+    color: var(--cor-de-destaque);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.experiencia-link:hover {
+    color: var(--cor-hover);
+}
+
 .cursos {
     margin-top: 5rem;
     display: flex;
@@ -399,6 +423,24 @@ main {
         border: 2px solid var(--cor-hover);
         box-shadow: 0 5px 15px rgba(170, 0, 196, 0.4);
     }
+}
+
+.projeto-info {
+    width: 100%;
+    padding: 1rem 1.2rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.projeto-info h3 {
+    font-size: 1.1rem;
+}
+
+.projeto-info p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--texto-suave);
 }
 
 .contato-container {
